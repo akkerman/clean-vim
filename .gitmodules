@@ -1,0 +1,21 @@
+[submodule "tpope/vim-fugitive"]
+	path = pack/3rd/start/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "tpope/vim-surround"]
+	path = pack/3rd/start/surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "tpope/vim-commentary"]
+	path = pack/3rd/start/commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "tpope/vim-projectionist"]
+	path = pack/3rd/start/projectionist
+	url = https://github.com/tpope/vim-projectionist.git
+[submodule "tpope/vim-markdown"]
+	path = pack/3rd/start/markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "cormacrelf/vim-colors-github"]
+	path = pack/colors/opt/github
+	url = https://github.com/cormacrelf/vim-colors-github.git
+[submodule "morhetz/gruvbox"]
+	path = pack/colors/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
