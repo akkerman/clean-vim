@@ -31,3 +31,9 @@
 [submodule "cocopon/iceberg.vim"]
 	path = pack/colors/opt/iceberg
 	url = https://github.com/cocopon/iceberg.vim
+[submodule "junegunn/fzf"]
+	path = pack/fzf/start/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "junegunn/fzf.vim"]
+	path = pack/fzf/opt/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
