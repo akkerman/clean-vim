@@ -19,3 +19,6 @@
 [submodule "morhetz/gruvbox"]
 	path = pack/colors/start/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
+[submodule "cocopon/iceberg.vim"]
+	path = pack/colors/opt/iceberg
+	url = https://github.com/cocopon/iceberg.vim
