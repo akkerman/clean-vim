@@ -37,3 +37,18 @@
 [submodule "junegunn/fzf.vim"]
 	path = pack/fzf/opt/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "akkerman/vim-jasmine"]
+	path = pack/javascript/opt/jasmine
+	url = https://github.com/akkerman/vim-jasmine.git
+[submodule "pangloss/vim-javascript"]
+	path = pack/javascript/start/javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "mxw/vim-jsx"]
+	path = pack/javascript/start/jsx
+	url = https://github.com/mxw/vim-jsx.git
+[submodule "moll/vim-node"]
+	path = pack/javascript/start/node
+	url = https://github.com/moll/vim-node.git
+[submodule "ternjs/tern_for_vim"]
+	path = pack/javascript/opt/tern
+	url = https://github.com/ternjs/tern_for_vim.git
