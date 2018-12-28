@@ -52,3 +52,9 @@
 [submodule "ternjs/tern_for_vim"]
 	path = pack/javascript/opt/tern
 	url = https://github.com/ternjs/tern_for_vim.git
+[submodule "tmux-plugins/vim-tmux"]
+	path = pack/tmux/opt/tmux
+	url = https://github.com/tmux-plugins/vim-tmux.git
+[submodule "christoomey/vim-tmux-navigator"]
+	path = pack/tmux/start/tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
