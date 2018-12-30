@@ -58,3 +58,9 @@
 [submodule "christoomey/vim-tmux-navigator"]
 	path = pack/tmux/start/tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "honza/dockerfile"]
+	path = pack/syntax/start/dockerfile
+	url = https://github.com/honza/dockerfile.vim.git
+[submodule "chr4/nginx"]
+	path = pack/syntax/start/nginx
+	url = https://github.com/chr4/nginx.vim.git
