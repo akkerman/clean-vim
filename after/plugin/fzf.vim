@@ -1,4 +1,4 @@
-" file: after/plugin/zfz.vim
+" file: after/plugin/fzf.vim
 " vim: set fdm=marker fcs=fold\:\ :
 
 " junegunn/fzf {{{1
