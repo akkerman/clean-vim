@@ -15,8 +15,8 @@ set background=dark
 color gruvbox
 
 " swapfiles and undo
-set dir=~/tmp
-set undodir=~/tmp
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
 set undofile
 
 " toggle highlightsearch
