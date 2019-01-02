@@ -67,3 +67,6 @@
 [submodule "francoiscabrol/ranger.vim"]
 	path = pack/files/start/ranger
 	url = https://github.com/francoiscabrol/ranger.vim
+[submodule "tpope/vim-sensible"]
+	path = pack/3rd/start/sensible
+	url = https://github.com/tpope/vim-sensible.git
