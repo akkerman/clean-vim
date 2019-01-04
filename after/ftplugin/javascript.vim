@@ -1,5 +1,6 @@
 setlocal include=^\\s*[^\/]\\+\\(from\\\|require(['\"]\\)
-setlocal suffixesadd+=.js
+setlocal suffixesadd+=.js,.mjs
+
 " tabs
 setlocal tabstop=2      " show existing tabs as 4 spaces
 setlocal shiftwidth=2   " indent 4 spaces with '>'
