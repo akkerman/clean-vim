@@ -73,3 +73,6 @@
 [submodule "pack/syntax/start/i3config"]
 	path = pack/syntax/start/i3config
 	url = https://github.com/mboughaba/i3config.vim.git
+[submodule "pack/textobjects/start/tabular"]
+	path = pack/textobjects/start/tabular
+	url = https://github.com/godlygeek/tabular.git
