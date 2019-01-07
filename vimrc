@@ -10,9 +10,8 @@ set incsearch
 set autoread
 
 " colors
-set t_Co=256
-set background=dark
 color gruvbox
+set background=dark
 
 " swapfiles and undo
 set directory=~/.vim/swap//
@@ -21,3 +20,5 @@ set undofile
 
 " toggle highlightsearch
 nnoremap <leader>n :set hlsearch!<cr>
+
+set listchars=tab:»·,trail:·
