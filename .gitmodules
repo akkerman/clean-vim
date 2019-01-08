@@ -35,7 +35,7 @@
 	path = pack/fzf/start/fzf
 	url = https://github.com/junegunn/fzf.git
 [submodule "junegunn/fzf.vim"]
-	path = pack/fzf/opt/fzf.vim
+	path = pack/fzf/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
 [submodule "akkerman/vim-jasmine"]
 	path = pack/javascript/opt/jasmine
