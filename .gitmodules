@@ -76,3 +76,6 @@
 [submodule "pack/textobjects/start/tabular"]
 	path = pack/textobjects/start/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "pack/javascript/start/ale"]
+	path = pack/javascript/start/ale
+	url = https://github.com/w0rp/ale.git

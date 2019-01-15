@@ -17,5 +17,6 @@ function! s:align()
   endif
 endfunction
 
-set makeprg="pandoc % -o %:r.pdf"
+" set makeprg="pandoc %:p -o %:p:r.pdf"
+let &l:makeprg = "pandoc -s --pdf-engine=xelatex --metadata-file ~/.pandoc/metadata.yml -H ~/.pandoc/header.tex ".shellescape(expand("%:p"))." -o ".shellescape(expand("%:p:r").".pdf")
 " set errorformat="%f",\ line\ %1:\ %m
