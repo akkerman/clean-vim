@@ -4,9 +4,6 @@
 [submodule "tpope/vim-commentary"]
 	path = pack/3rd/start/commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "tpope/vim-dispatch"]
-	path = pack/3rd/start/dispatch
-	url = https://github.com/tpope/vim-dispatch.git
 [submodule "tpope/vim-fugitive"]
 	path = pack/3rd/start/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
