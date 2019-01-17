@@ -5,3 +5,5 @@ setlocal suffixesadd+=.js,.mjs
 setlocal tabstop=2
 setlocal shiftwidth=2
 setlocal expandtab
+
+setlocal makeprg=yarn\ lint\ --format\ compact
