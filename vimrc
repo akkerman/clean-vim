@@ -22,3 +22,11 @@ set undofile
 nnoremap <leader>n :set hlsearch!<cr>
 
 set listchars=tab:»·,trail:·
+
+if executable('ack')
+  set grepprg=ack\ --nogroup\ --column\ $*
+  set grepformat=%f:%l:%c:%m
+endif
+
+" default statusline with git branch 
+set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
