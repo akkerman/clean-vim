@@ -30,3 +30,5 @@ endif
 
 " default statusline with git branch 
 set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
+
+cabbr <expr> %% expand('%:p:h')
