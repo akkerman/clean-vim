@@ -24,7 +24,7 @@ nnoremap <leader>n :set hlsearch!<cr>
 set listchars=tab:»·,trail:·
 
 if executable('ack')
-  set grepprg=ack\ --nogroup\ --column\ $*
+  set grepprg=ack\ --nogroup\ --column\ "$*"
   set grepformat=%f:%l:%c:%m
 endif
 

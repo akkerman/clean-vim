@@ -76,3 +76,6 @@
 [submodule "pack/javascript/start/ale"]
 	path = pack/javascript/start/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "SirVer/ultisnips"]
+	path = pack/3rd/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
