@@ -1,0 +1,130 @@
+snippet defb "define backbone depends" b
+define([
+    "jquery", "underscore", "backbone", "templates"
+], function ($, _, Backbone, JST) {
+    "use strict";
+
+    return $0;
+});
+endsnippet
+
+
+snippet setup "sharedSetup" b
+function sharedSetup() {
+	beforeEach(function () {
+		$1
+	});
+	afterEach(function () {
+		$2
+	});
+}
+$0
+endsnippet
+
+snippet jdmodel "test skeleton for Backbone.Model" b
+describe("model - ${1:ModelName}", function () {
+    "use strict";
+
+    var attributes, model;
+
+    afterEach(function () {
+        attributes = null;
+        model = null;        
+    });
+
+    it("should be defined", function () {
+        expect(${2:ModelType}).toBeDefined();
+    });
+
+    it("can be instantiated", function () {
+        model = new $2(attributes);
+        expect(model).not.toBeNull();
+        expect(model).toBeDefined();
+    });    
+	$0
+});
+endsnippet
+
+snippet jdview "test skeleton for Backbone.View" b
+describe("view - ${1:ViewName}", function () {
+    "use strict";
+
+    var attributes, model, view;
+
+    afterEach(function () {
+        attributes = null;
+        model = null;
+        view = null;
+    });
+
+    it("should be defined", function () {
+        expect(${2:ViewType}).toBeDefined();
+    });
+
+    it("can be instantiated", function () {
+        view = new $2();
+        expect(view).not.toBeNull();
+        expect(view).toBeDefined();
+    });
+
+    it("should create a ${3:DIV} element", function () {
+        view = new $2();
+        expect(view.el.nodeName).toEqual("$3");
+    });
+
+    function sharedBeforeEach() {
+        beforeEach(function () {
+            attributes = {};
+            model = new Backbone.Model(attributes);
+            view = new $2({
+                model: model
+            });
+        });
+    }
+
+    describe("rendering", function () {
+        sharedBeforeEach();
+        it("returns the view object", function () {
+            expect(view.render()).toEqual(view);
+        });
+
+    });
+	$0
+});
+endsnippet
+
+snippet middleware "create react middleware function" b
+export const $1 = ({ dispatch }) => next => action => {
+  next(action)
+
+  if (action.type === $2) {
+	  $0
+  }
+}
+endsnippet
+
+snippet reducer "create react reducer function" b
+const initialState = {
+}
+
+export default function $1(state = initialState, action) {
+  switch (action.type) {
+  case $2:
+     $0
+  default:
+    return state
+  }
+}
+endsnippet
+
+snippet fn "create lambda"
+${1:myFunction} = ($2) => {
+	$0
+}
+endsnippet
+
+snippet cfn "create lambda"
+const ${1:myFunction} = ($2) => {
+	$0
+}
+endsnippet

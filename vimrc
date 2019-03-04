@@ -31,4 +31,13 @@ endif
 " default statusline with git branch 
 set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
 
+
+let g:UltiSnipsSnippetsDir = '~/.vim/UltiSnips'
+
 cabbr <expr> %% expand('%:p:h')
+
+
+
+set tabstop=4      " show existing tabs as 4 spaces
+set shiftwidth=4   " indent 4 spaces with '>'
+set expandtab      " insert 4 spaces when pressing tab
