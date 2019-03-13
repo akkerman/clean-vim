@@ -47,7 +47,7 @@
 	path = pack/javascript/start/node
 	url = https://github.com/moll/vim-node.git
 [submodule "ternjs/tern_for_vim"]
-	path = pack/javascript/opt/tern
+	path = pack/javascript/start/tern
 	url = https://github.com/ternjs/tern_for_vim.git
 [submodule "tmux-plugins/vim-tmux"]
 	path = pack/tmux/opt/tmux
