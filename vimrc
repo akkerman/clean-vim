@@ -41,3 +41,16 @@ cabbr <expr> %% expand('%:p:h')
 set tabstop=4      " show existing tabs as 4 spaces
 set shiftwidth=4   " indent 4 spaces with '>'
 set expandtab      " insert 4 spaces when pressing tab
+
+function! ToggleGUICruft()
+  if &guioptions=='i'
+    exec('set guioptions=imTrL')
+  else
+    exec('set guioptions=i')
+  endif
+endfunction
+
+map <F11> <Esc>:call ToggleGUICruft()<cr>
+
+" by default, hide gui menus
+set guioptions=i
