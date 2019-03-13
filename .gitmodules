@@ -79,3 +79,6 @@
 [submodule "SirVer/ultisnips"]
 	path = pack/3rd/start/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+[submodule "lukerandall/haskellmode-vim"]
+	path = pack/haskell/start/haskellmode-vim
+	url = https://github.com/lukerandall/haskellmode-vim.git
