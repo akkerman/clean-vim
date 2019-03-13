@@ -8,4 +8,6 @@ nnoremap <silent> <leader>gc :Gcommit<CR>
 nnoremap <silent> <leader>gw :Gwrite<CR>
 
 " tpope/vim-markdown {{{1
-let g:markdown_fenced_languages = ["yaml", "java","sh", "javascript", "html", "abap", "groovy", "xml"]
+"
+" java and groovy result in loss of spelling feature
+let g:markdown_fenced_languages = ["yaml","sh", "javascript", "html", "xml", "json"]  
