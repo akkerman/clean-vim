@@ -82,6 +82,3 @@
 [submodule "lukerandall/haskellmode-vim"]
 	path = pack/haskell/start/haskellmode-vim
 	url = https://github.com/lukerandall/haskellmode-vim.git
-[submodule "honza/vim-snippets"]
-	path = pack/pack/3rd/start/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
