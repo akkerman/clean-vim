@@ -28,8 +28,19 @@ if executable('ack')
   set grepformat=%f:%l:%c:%m
 endif
 
+function! LinterStatus() abort
+   let l:counts = ale#statusline#Count(bufnr(''))
+   let l:all_errors = l:counts.error + l:counts.style_error
+   let l:all_non_errors = l:counts.total - l:all_errors
+   return l:counts.total == 0 ? '' : printf(
+   \ ' W:%d,E:%d ',
+   \ l:all_non_errors,
+   \ l:all_errors
+   \)
+endfunction
+
 " default statusline with git branch 
-set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
+set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %{LinterStatus()}\ %P
 
 
 let g:UltiSnipsSnippetsDir = '~/.vim/UltiSnips'
