@@ -54,3 +54,5 @@ map <F11> <Esc>:call ToggleGUICruft()<cr>
 
 " by default, hide gui menus
 set guioptions=i
+
+let g:haddock_browser='/usr/sbin/chromium'
