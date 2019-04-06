@@ -4,7 +4,7 @@ let g:ale_lint_delay = 0
 let g:ale_completion_enabled=1
 
 let g:ale_linters = { 'javascript': ['eslint'] }
-let g:ale_fixers = { 'javascript': ['importjs','eslint'] }
+let g:ale_fixers = { 'javascript': ['importjs','eslint'], 'yaml': ['prettier'] }
 
 nmap <silent> <F2> <Plug>(ale_next_wrap)
 nmap <silent> <F3> <Plug>(ale_previous_wrap)
